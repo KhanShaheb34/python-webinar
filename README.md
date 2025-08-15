@@ -88,38 +88,38 @@ streamlit run 03_streamlit_expense_tracker.py
 
 - Python
 
-  - Official Docs: `https://docs.python.org/3/`
-  - Tutorial: `https://docs.python.org/3/tutorial/`
-  - Cheat Sheet: `https://www.pythoncheatsheet.org/`
+  - Official Docs: [`https://docs.python.org/3/`](https://docs.python.org/3/)
+  - Tutorial: [`https://docs.python.org/3/tutorial/`](https://docs.python.org/3/tutorial/)
+  - Cheat Sheet: [`https://www.pythoncheatsheet.org/`](https://www.pythoncheatsheet.org/)
 
 - CLI
 
-  - argparse: `https://docs.python.org/3/library/argparse.html`
-  - csv module: `https://docs.python.org/3/library/csv.html`
+  - argparse: [`https://docs.python.org/3/library/argparse.html`](https://docs.python.org/3/library/argparse.html)
+  - csv module: [`https://docs.python.org/3/library/csv.html`](https://docs.python.org/3/library/csv.html)
 
 - FastAPI
 
-  - FastAPI: `https://fastapi.tiangolo.com/`
-  - Pydantic: `https://docs.pydantic.dev/`
-  - Uvicorn: `https://www.uvicorn.org/`
+  - FastAPI: [`https://fastapi.tiangolo.com/`](https://fastapi.tiangolo.com/)
+  - Pydantic: [`https://docs.pydantic.dev/`](https://docs.pydantic.dev/)
+  - Uvicorn: [`https://www.uvicorn.org/`](https://www.uvicorn.org/)
 
 - Streamlit + Data
 
-  - Streamlit: `https://docs.streamlit.io/`
-  - pandas read_csv: `https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html`
+  - Streamlit: [`https://docs.streamlit.io/`](https://docs.streamlit.io/)
+  - pandas read_csv: [`https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 
 - LLM (Gemini)
-  - Gemini Python API: `https://ai.google.dev/gemini-api/docs`
-  - JSON in Python: `https://docs.python.org/3/library/json.html`
+  - Gemini Python API: [`https://ai.google.dev/gemini-api/docs`](https://ai.google.dev/gemini-api/docs)
+  - JSON in Python: [`https://docs.python.org/3/library/json.html`](https://docs.python.org/3/library/json.html)
 
 If you need any resource that isn’t listed here, tell me which topic and I’ll add it.
 
 ## General Python Learning Resources
 
-- Interactive Cares: `https://interactivecares.com/course/python-programming`
-- Hukush-Pakush: `https://hukush-pakush.com/`
-- Automate the Boring Stuff (free to read online): `https://automatetheboringstuff.com/`
-- freeCodeCamp Python Course: `https://www.freecodecamp.org/learn/scientific-computing-with-python/`
+- Interactive Cares: [`https://interactivecares.com/course/python-programming`](https://interactivecares.com/course/python-programming)
+- Hukush-Pakush: [`https://hukush-pakush.com/`](https://hukush-pakush.com/)
+- Automate the Boring Stuff (free to read online): [`https://automatetheboringstuff.com/`](https://automatetheboringstuff.com/)
+- freeCodeCamp Python Course: [`https://www.freecodecamp.org/learn/scientific-computing-with-python/`](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
 
 ## Notes
 
