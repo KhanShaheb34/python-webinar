@@ -25,49 +25,50 @@ All examples keep the code simple and well-commented for learners. Expenses are 
    pip install -r requirements.txt
    ```
 
-3. Run each project
+## Run each project
 
-   - CLI
+### CLI
 
-   - Add an expense:
+- Add an expense:
 
-     ```bash
-     python 01_cli_expense_tracker.py add --amount 12.5 --category food --note "Lunch"
-     ```
+  ```bash
+  python 01_cli_expense_tracker.py add --amount 12.5 --category food --note "Lunch"
+  ```
 
-   - View expenses:
+- View expenses:
 
-     ```bash
-     python 01_cli_expense_tracker.py view
-     ```
+  ```bash
+  python 01_cli_expense_tracker.py view
+  ```
 
-   - FastAPI (in-memory)
+### FastAPI (in-memory)
 
-   ```bash
-   uvicorn 02_fastapi_expense_tracker:app --reload
-   # Open http://127.0.0.1:8000/docs for interactive API docs
-   ```
+```bash
+uvicorn 02_fastapi_expense_tracker:app --reload
+# Open http://127.0.0.1:8000/docs for interactive API docs
+```
 
-   - Streamlit
+### Streamlit
 
-   ```bash
-   streamlit run 03_streamlit_expense_tracker.py
-   ```
+```bash
+streamlit run 03_streamlit_expense_tracker.py
+```
 
-   - LLM (Gemini) expense parser
-   - Get your API Key from: [Google AI Studio](https://aistudio.google.com/)
-   - Set your API key first:
+### LLM (Gemini) expense parser
 
-     ```bash
-     export GOOGLE_API_KEY="your_key_here"  # macOS/Linux
-     # $env:GOOGLE_API_KEY="your_key_here" # Windows PowerShell
-     ```
+- Get your API Key from: [Google AI Studio](https://aistudio.google.com/)
+- Set your API key first:
 
-   - Run the app:
+  ```bash
+  export GOOGLE_API_KEY="your_key_here"  # macOS/Linux
+  # $env:GOOGLE_API_KEY="your_key_here" # Windows PowerShell
+  ```
 
-     ```bash
-     streamlit run 04_llm_expense_parser.py
-     ```
+- Run the app:
+
+  ```bash
+  streamlit run 04_llm_expense_parser.py
+  ```
 
 ## What You’ll Learn
 
@@ -78,11 +79,10 @@ All examples keep the code simple and well-commented for learners. Expenses are 
 
 ## File Overview
 
-- `expenses.csv`: Shared CSV file used by the apps. It is created automatically when missing.
-- `01_cli_expense_tracker.py`: Adds/views expenses via terminal.
-- `02_fastapi_expense_tracker.py`: API for adding/viewing expenses.
-- `03_streamlit_expense_tracker.py`: Web UI for adding/viewing expenses.
-- `04_llm_expense_parser.py`: Web UI where Gemini parses natural language into an expense.
+- `01_cli_expense_tracker.py`: Adds/views expenses via terminal
+- `02_fastapi_expense_tracker.py`: API for adding/viewing expenses
+- `03_streamlit_expense_tracker.py`: Web UI for adding/viewing expenses
+- `04_llm_expense_parser.py`: Web UI where Gemini parses natural language into an expense
 
 ## Helpful Docs & Cheat Sheets
 
